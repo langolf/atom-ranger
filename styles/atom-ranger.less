@@ -1,0 +1,49 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.atom-ranger {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.atom-ranger__columns {
+  display: flex;
+  flex: 1;
+}
+
+.atom-ranger__column {
+  display: flex;
+  flex-flow: column;
+  background: transparent;
+  overflow-y: scroll;
+}
+
+.atom-ranger__column_root {
+  flex: 0 1 20%;
+}
+
+.atom-ranger__column_active {
+  flex: 0 1 30%;
+}
+
+.atom-ranger__column_preview {
+  flex: 0 1 50%;
+}
+
+.atom-ranger__entry {
+  padding: 5px 10px;
+  flex: none;
+  color: #fff;
+}
+
+.atom-ranger__entry_focus {
+  background: red;
+}

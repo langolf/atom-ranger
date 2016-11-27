@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-ranger",
+        "command": "atom-ranger:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-ranger",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-ranger:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
